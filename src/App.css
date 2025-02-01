@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact-card {
+  border: 1px solid white;
+  background-color: rgba(240, 255, 246, 0.677);
+  color: black;
+  box-shadow: 3px 3px 5px rgba(240, 255, 246, 0.677);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.contact-card h3 {
+  margin-left: 10px;
+}
+
+.contact-card .cat {
+  border-radius: 10px;
+}
+
+.info-group {
+  display: flex;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+  padding: 0.5rem;
+}
+
+.info-group img {
+  padding: 0;
+  margin-left: 10px;
+}
+
+.info-group .mail {
+  margin: 0;
+  padding: 0;
+}
+
+.info-group .phone {
+  padding-right: 2px;
+  margin-right: 12px;
+}
